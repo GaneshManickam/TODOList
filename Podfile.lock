@@ -1,0 +1,62 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.6)
+  - Realm (10.7.2):
+    - Realm/Headers (= 10.7.2)
+  - Realm/Headers (10.7.2)
+  - RealmSwift (10.7.2):
+    - Realm (= 10.7.2)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxGesture (4.0.2):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - Toast-Swift (5.0.1)
+  - Toaster (2.3.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - RealmSwift
+  - RxCocoa
+  - RxGesture
+  - RxSwift
+  - Toast-Swift
+  - Toaster (from `https://github.com/devxoul/Toaster`)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  Toaster:
+    :git: https://github.com/devxoul/Toaster
+
+CHECKOUT OPTIONS:
+  Toaster:
+    :commit: b4fa1aa8d9231ea62dac5c3255f4313d727d22a4
+    :git: https://github.com/devxoul/Toaster
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Realm: e523da9ade306c5ae87e85dc09fdef148d3e1cc1
+  RealmSwift: 4f6758c3adbdcc87f7b7777107226532a077f61c
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxGesture: f059f2aeef966fb17dad56ee440e76410f10e55f
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+
+PODFILE CHECKSUM: 1691e2991ae0ebaa401299819111371e8c7f9060
+
+COCOAPODS: 1.10.1

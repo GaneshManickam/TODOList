@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="Demo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="7AY-oI-npd" id="kj9-j0-yVy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7AY-oI-npd">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TO-DO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zm-mz-rqp">
+                    <rect key="frame" x="20" y="432.5" width="374" height="41"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raS-I3-bcw">
+                    <rect key="frame" x="20" y="801" width="374" height="41"/>
+                    <string key="text">Developed By:
+Ganesh Manickam</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="QX5-tC-Aty"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8Zm-mz-rqp" firstAttribute="leading" secondItem="QX5-tC-Aty" secondAttribute="leading" constant="20" id="6wY-dx-cez"/>
+                <constraint firstItem="QX5-tC-Aty" firstAttribute="trailing" secondItem="8Zm-mz-rqp" secondAttribute="trailing" constant="20" id="8X0-VH-gro"/>
+                <constraint firstItem="raS-I3-bcw" firstAttribute="leading" secondItem="QX5-tC-Aty" secondAttribute="leading" constant="20" id="SRv-hH-qGK"/>
+                <constraint firstItem="QX5-tC-Aty" firstAttribute="trailing" secondItem="raS-I3-bcw" secondAttribute="trailing" constant="20" id="c2U-qx-a7e"/>
+                <constraint firstItem="8Zm-mz-rqp" firstAttribute="centerY" secondItem="QX5-tC-Aty" secondAttribute="centerY" id="rhL-Sk-ApN"/>
+                <constraint firstItem="QX5-tC-Aty" firstAttribute="bottom" secondItem="raS-I3-bcw" secondAttribute="bottom" constant="20" id="wdX-BI-wS1"/>
+            </constraints>
+            <point key="canvasLocation" x="-75" y="-518"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
